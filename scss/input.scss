@@ -115,12 +115,12 @@ html, body {
 
 .root {
   font-family: 'Archivo', sans-serif;
-  padding: 1em;
 }
 
 .container {
   max-width: 100em;
   margin: 0 auto;
+  padding-top: 8em;
 }
 
 .text-center {
@@ -214,12 +214,12 @@ a, .a {
 
 .content {
   max-width: 100em;
-  padding: 4rem 0;
+  padding: 4rem 1em;
 
 
 
   .project {
-    margin-bottom: 5em;
+    margin-bottom: 10em;
 
     img, .img {
       width: 100%;
@@ -254,4 +254,7 @@ a, .a {
   color: $d3;
   padding: 8rem 0;
 
+  & .a {
+    font-size: 1.25em;
+  }
 }

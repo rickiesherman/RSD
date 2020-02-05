@@ -36,12 +36,12 @@ html, body {
   display: inline-block; }
 
 .root {
-  font-family: 'Archivo', sans-serif;
-  padding: 1em; }
+  font-family: 'Archivo', sans-serif; }
 
 .container {
   max-width: 100em;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 8em; }
 
 .text-center {
   text-align: center; }
@@ -110,9 +110,9 @@ a, .a {
 
 .content {
   max-width: 100em;
-  padding: 4rem 2rem; }
+  padding: 4rem 1em; }
   .content .project {
-    margin-bottom: 5em; }
+    margin-bottom: 10em; }
     .content .project img, .content .project .img {
       width: 100%;
       border-radius: 0.25em;
@@ -133,5 +133,7 @@ a, .a {
   border-top: 1px solid #D1D4D7;
   color: #727481;
   padding: 8rem 0; }
+  .footer .a {
+    font-size: 1.25em; }
 
 /*# sourceMappingURL=output.css.map */
