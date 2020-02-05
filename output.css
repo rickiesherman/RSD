@@ -36,12 +36,12 @@ html, body {
   display: inline-block; }
 
 .root {
-  font-family: 'Archivo', sans-serif;
-  padding: 1em; }
+  font-family: 'Archivo', sans-serif; }
 
 .container {
   max-width: 100em;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 8em; }
 
 .text-center {
   text-align: center; }
