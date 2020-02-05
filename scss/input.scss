@@ -219,7 +219,7 @@ a, .a {
 
 
   .project {
-    margin-bottom: 5em;
+    margin-bottom: 10em;
 
     img, .img {
       width: 100%;
@@ -254,4 +254,7 @@ a, .a {
   color: $d3;
   padding: 8rem 0;
 
+  & .a {
+    font-size: 1.25em;
+  }
 }
