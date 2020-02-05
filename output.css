@@ -1,0 +1,137 @@
+body {
+  width: 100%;
+  height: 100%; }
+
+html, body {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Archivo', sans-serif; }
+
+* {
+  outline: none; }
+
+.d-flex {
+  display: flex; }
+
+.flex-row {
+  flex-direction: row; }
+
+.flex-col {
+  flex-direction: column; }
+
+.align-self-center {
+  align-self: center; }
+
+.align-items-center {
+  align-items: center; }
+
+.align-content-center {
+  align-content: center; }
+
+.d-block {
+  display: block; }
+
+.d-inline-block {
+  display: inline-block; }
+
+.root {
+  font-family: 'Archivo', sans-serif;
+  padding: 1em; }
+
+.container {
+  max-width: 100em;
+  margin: 0 auto; }
+
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+h1, .h1 {
+  font-size: 3em;
+  font-weight: 400; }
+
+h2, .h2 {
+  font-size: 2em; }
+
+h3, .h3 {
+  font-size: 1.75em; }
+
+h4, .h4 {
+  font-size: 1.6em; }
+
+h5, .h5 {
+  font-size: 1.5em; }
+
+p, .p {
+  font-size: 1.33em; }
+
+a, .a {
+  font-weight: bold;
+  transition: 0.25s all;
+  text-decoration: none;
+  color: #00739F; }
+  a:hover, .a:hover {
+    opacity: 1;
+    color: #002940; }
+
+.navigation {
+  display: inline-flex;
+  padding: 1em;
+  align-self: center;
+  margin-bottom: 2em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 200px; }
+  .navigation .a, .navigation a {
+    padding: 0.75em 1.5em;
+    border-radius: 200px;
+    color: #727481;
+    text-decoration: none;
+    margin-right: 12px;
+    font-size: 1.125em; }
+    .navigation .a:last-child, .navigation a:last-child {
+      margin-right: 0; }
+    .navigation .a:hover, .navigation a:hover {
+      opacity: 1;
+      background: #EDEEF0;
+      color: #434356; }
+    .navigation .a.active, .navigation a.active {
+      background: #fff;
+      color: #282A38;
+      font-weight: bold;
+      box-shadow: 0 0.125em 0.25rem rgba(0, 0, 0, 0.2); }
+      .navigation .a.active:hover, .navigation a.active:hover {
+        box-shadow: 0 0.33em 0.5rem rgba(0, 0, 0, 0.12); }
+
+.content {
+  max-width: 100em;
+  padding: 4rem 0; }
+  .content .project {
+    margin-bottom: 5em; }
+    .content .project img, .content .project .img {
+      width: 100%;
+      border-radius: 0.25em;
+      box-shadow: 0 0.5em 4rem rgba(0, 0, 0, 0.12); }
+    .content .project.disabled img {
+      opacity: 0.8;
+      cursor: not-allowed;
+      transition: 0.2s opacity; }
+      .content .project.disabled img:hover {
+        opacity: 1; }
+    .content .project h2 {
+      color: #0F1117; }
+    .content .project p {
+      color: #434356;
+      font-weight: 400; }
+
+.footer {
+  border-top: 1px solid #D1D4D7;
+  color: #727481;
+  padding: 8rem 0; }
+
+/*# sourceMappingURL=output.css.map */
